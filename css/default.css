@@ -11,18 +11,9 @@
 	font-family: Roboto
 }
 
-.K{
-	position: absolute;
-	top: 72px;
-	font-size: 50px;
-	z-index: 10;
-	left: 131px;
-	color: #fff;
-	font-family: 'Baloo Paaji', cursive;
-}
 
 .heading{
-	margin-top: 200px;
+	margin-top: 110px;
 	
 }
 
@@ -41,8 +32,8 @@
 }
 
 .square {
-	position: absolute;
-	top: 70px;
+	position: relative;
+	top: 50px;	
   width: 70px;
   height: 70px;
   background-color: coral;
