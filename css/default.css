@@ -11,6 +11,16 @@
 	font-family: Roboto
 }
 
+.K{
+	position: absolute;
+	top: 72px;
+	font-size: 50px;
+	z-index: 10;
+	left: 131px;
+	color: #fff;
+	font-family: 'Baloo Paaji', cursive;
+}
+
 .heading{
 	margin-top: 200px;
 	
