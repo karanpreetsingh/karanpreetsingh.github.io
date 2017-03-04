@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Hind+Siliguri|Noto+Sans|Roboto');
 
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    .backdrop{
+    	display: hidden;
+    }
+}
+
 .backdrop{
 	position: absolute;
 	bottom: 0;
