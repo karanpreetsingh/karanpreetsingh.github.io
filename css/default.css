@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Hind+Siliguri|Noto+Sans|Roboto');
+
+.backdrop{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+*{
+	font-family: Roboto
+}
+.heading{
+	margin-top: 150px;
+	
+}
+
+.punjabi{
+	font-family: 'Baloo Paaji', cursive;
+}
+.construction{
+	margin-top: 50px;
+}
+
+.footer{
+	position: absolute;
+	bottom: 20px;
+}
