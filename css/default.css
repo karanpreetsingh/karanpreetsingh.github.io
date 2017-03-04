@@ -4,7 +4,6 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	z-index: -1;
 }
 *{
 	font-family: Roboto
@@ -18,7 +17,9 @@
 	font-family: 'Baloo Paaji', cursive;
 }
 .construction{
+	position: relative;
 	margin-top: 50px;
+	z-index: 999;
 }
 
 .footer{
