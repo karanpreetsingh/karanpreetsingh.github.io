@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|Hind+Siliguri|Noto+Sans|Roboto');
-
-@media only screen and (max-width: 500px) {
-    /* For mobile phones: */
-    .backdrop{
-    	display: hidden;
-    }
+body{
+    margin: 0;
+    padding: 0;
 }
-
 .backdrop{
 	position: absolute;
 	bottom: 0;
@@ -20,7 +16,7 @@
 
 
 .heading{
-	margin-top: 110px;
+	margin-top: 10%;
 	
 }
 
@@ -39,7 +35,7 @@
 }
 .construction{
 	position: relative;
-	margin-top: 50px;
+	margin-top: 5%;
 	z-index: 999;
 }
 
@@ -47,42 +43,5 @@
 	font-size: 15px;
 	position: absolute;
 	bottom: 20px;
-}
-
-.square {
-	position: relative;
-	top: 50px;	
-  width: 70px;
-  height: 70px;
-  background-color: coral;
-  animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
-}
- 
-@keyframes square-to-circle {
-  0%  {
-    border-radius:0 0 0 0;
-    background:coral;
-    transform:rotate(0deg);
-  }
-  25%  {
-    border-radius:50% 0 0 0;
-    background:darksalmon;
-    transform:rotate(45deg);
-  }
-  50%  {
-    border-radius:50% 50% 0 0;
-    background:indianred;
-    transform:rotate(90deg);
-  }
-  75%  { 
-    border-radius:50% 50% 50% 0;
-    background:lightcoral;
-    transform:rotate(135deg);
-  }
-  100% {  
-    border-radius:50%;
-    background:darksalmon;
-    transform:rotate(180deg);
-  }
 }
 
